@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Honest Cookies</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <img src="icons/icon32.png" width="20" height="20" alt="">
+      <span>Honest Cookies</span>
+    </div>
+    <div class="site" id="site"></div>
+  </header>
+
+  <div id="banner" class="banner" hidden></div>
+  <div id="toast" class="toast" hidden></div>
+
+  <section id="blocked" class="panel" hidden>
+    <p id="blockedText"></p>
+  </section>
+
+  <section id="needAccess" class="panel" hidden>
+    <p data-i18n="accessWhy"></p>
+    <button class="primary" id="grantSite"></button>
+    <button class="link" id="grantAll" data-i18n="grantAll"></button>
+  </section>
+
+  <main id="main" hidden>
+    <section class="toolbar">
+      <input type="search" id="search" data-i18n-placeholder="searchPlaceholder" spellcheck="false">
+      <select id="scope" aria-label="Scope">
+        <option value="page" data-i18n="scopePage"></option>
+        <option value="site" data-i18n="scopeSite"></option>
+      </select>
+    </section>
+    <section class="toolbar">
+      <button id="add" data-i18n="add"></button>
+      <select id="exportSel" aria-label="Export">
+        <option value="" data-i18n="exportMenu"></option>
+        <option value="json" data-i18n="exportJson"></option>
+        <option value="netscape" data-i18n="exportNetscape"></option>
+        <option value="header" data-i18n="exportHeader"></option>
+        <option value="file" data-i18n="exportFile"></option>
+      </select>
+      <button id="importBtn" data-i18n="import"></button>
+      <button id="deleteAll" class="danger"></button>
+    </section>
+
+    <section id="importBox" class="panel" hidden>
+      <p class="hint" data-i18n="importHint"></p>
+      <textarea id="importText" rows="6" spellcheck="false"></textarea>
+      <div class="actions">
+        <button class="primary" id="importRun" data-i18n="importRun"></button>
+        <button id="importCancel" data-i18n="cancel"></button>
+      </div>
+    </section>
+
+    <p class="hint" id="countLine"></p>
+    <div id="list" class="list"></div>
+  </main>
+
+  <template id="editorTpl">
+    <form class="editor" autocomplete="off">
+      <label><span data-i18n="fName"></span><input name="name" spellcheck="false"></label>
+      <label><span data-i18n="fValue"></span><textarea name="value" rows="3" spellcheck="false"></textarea></label>
+      <div class="grid">
+        <label><span data-i18n="fDomain"></span><input name="domain" spellcheck="false"></label>
+        <label><span data-i18n="fPath"></span><input name="path" spellcheck="false"></label>
+      </div>
+      <div class="grid">
+        <label><span data-i18n="fExpires"></span><input name="expires" type="datetime-local"></label>
+        <label><span data-i18n="fSameSite"></span>
+          <select name="sameSite">
+            <option value="unspecified" data-i18n="ssUnspecified"></option>
+            <option value="lax">Lax</option>
+            <option value="strict">Strict</option>
+            <option value="no_restriction">None</option>
+          </select>
+        </label>
+      </div>
+      <div class="checks">
+        <label><input type="checkbox" name="session"> <span data-i18n="fSession"></span></label>
+        <label><input type="checkbox" name="hostOnly"> <span data-i18n="fHostOnly"></span></label>
+        <label><input type="checkbox" name="secure"> Secure</label>
+        <label><input type="checkbox" name="httpOnly"> HttpOnly</label>
+      </div>
+      <p class="err" hidden></p>
+      <div class="actions">
+        <button type="submit" class="primary" data-i18n="save"></button>
+        <button type="button" class="copy" data-i18n="copyValue"></button>
+        <button type="button" class="del danger" data-i18n="delete"></button>
+        <button type="button" class="cancel" data-i18n="cancel"></button>
+      </div>
+    </form>
+  </template>
+
+  <footer class="bottom">
+    <span class="trust" data-i18n="trustLine"></span>
+  </footer>
+
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,222 @@
+{
+  "extName": {
+    "message": "Honest Cookies – Cookie Editor"
+  },
+  "extDescription": {
+    "message": "View, edit, add, delete, export and import cookies. Asks for access one site at a time. No tracking, no data collection, open source. Imports EditThisCookie exports."
+  },
+  "searchPlaceholder": {
+    "message": "Search name, value or domain"
+  },
+  "scopePage": {
+    "message": "This page"
+  },
+  "scopeSite": {
+    "message": "Whole site"
+  },
+  "add": {
+    "message": "+ Add"
+  },
+  "exportMenu": {
+    "message": "Export…"
+  },
+  "exportJson": {
+    "message": "Copy as JSON"
+  },
+  "exportNetscape": {
+    "message": "Copy as cookies.txt"
+  },
+  "exportHeader": {
+    "message": "Copy as Cookie header"
+  },
+  "exportFile": {
+    "message": "Save JSON file"
+  },
+  "import": {
+    "message": "Import"
+  },
+  "importHint": {
+    "message": "Paste JSON (EditThisCookie / Cookie-Editor format) or a Netscape cookies.txt. Cookies are saved into this browser only."
+  },
+  "importRun": {
+    "message": "Import"
+  },
+  "cancel": {
+    "message": "Cancel"
+  },
+  "deleteAll": {
+    "message": "Delete all"
+  },
+  "deleteAllConfirm": {
+    "message": "Click again to delete $1",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "countAll": {
+    "message": "$1 cookies",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "countFiltered": {
+    "message": "$1 of $2 cookies",
+    "placeholders": {
+      "a": {
+        "content": "$1"
+      },
+      "b": {
+        "content": "$2"
+      }
+    }
+  },
+  "noCookies": {
+    "message": "No cookies for this page."
+  },
+  "noMatch": {
+    "message": "No cookies match your search."
+  },
+  "noName": {
+    "message": "(no name)"
+  },
+  "newCookie": {
+    "message": "New cookie"
+  },
+  "session": {
+    "message": "Session"
+  },
+  "fName": {
+    "message": "Name"
+  },
+  "fValue": {
+    "message": "Value"
+  },
+  "fDomain": {
+    "message": "Domain"
+  },
+  "fPath": {
+    "message": "Path"
+  },
+  "fExpires": {
+    "message": "Expires"
+  },
+  "fSameSite": {
+    "message": "SameSite"
+  },
+  "ssUnspecified": {
+    "message": "Not set"
+  },
+  "fSession": {
+    "message": "Session cookie (deleted when the browser closes)"
+  },
+  "fHostOnly": {
+    "message": "This host only"
+  },
+  "save": {
+    "message": "Save"
+  },
+  "copyValue": {
+    "message": "Copy value"
+  },
+  "delete": {
+    "message": "Delete"
+  },
+  "saved": {
+    "message": "Saved."
+  },
+  "deleted": {
+    "message": "Deleted $1.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "copiedValue": {
+    "message": "Value copied."
+  },
+  "copiedN": {
+    "message": "Copied $1 cookies.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "imported": {
+    "message": "Imported $1. Failed $2. Skipped (already expired) $3.",
+    "placeholders": {
+      "a": {
+        "content": "$1"
+      },
+      "b": {
+        "content": "$2"
+      },
+      "c": {
+        "content": "$3"
+      }
+    }
+  },
+  "errNameEmpty": {
+    "message": "Enter a name or a value."
+  },
+  "errName": {
+    "message": "The name can't contain ; = spaces at the ends or control characters."
+  },
+  "errValue": {
+    "message": "The value can't contain ; or control characters."
+  },
+  "errDomain": {
+    "message": "Enter a domain."
+  },
+  "errPath": {
+    "message": "The path must start with /."
+  },
+  "errPast": {
+    "message": "The expiry date must be in the future. To remove the cookie, use Delete."
+  },
+  "errSameSiteNone": {
+    "message": "SameSite=None needs Secure to be on."
+  },
+  "errSave": {
+    "message": "Chrome did not save this cookie. $1",
+    "placeholders": {
+      "m": {
+        "content": "$1"
+      }
+    }
+  },
+  "errRejected": {
+    "message": "Check the domain, the Secure setting and name prefixes like __Host-."
+  },
+  "errCopy": {
+    "message": "Could not copy to the clipboard."
+  },
+  "errImport": {
+    "message": "Nothing to import. Paste JSON or cookies.txt."
+  },
+  "blocked": {
+    "message": "Cookies can only be edited on http:// and https:// pages."
+  },
+  "accessWhy": {
+    "message": "Honest Cookies only reads cookies on sites you allow. Nothing is sent anywhere."
+  },
+  "grantSite": {
+    "message": "Allow on $1",
+    "placeholders": {
+      "s": {
+        "content": "$1"
+      }
+    }
+  },
+  "grantAll": {
+    "message": "Allow on all sites"
+  },
+  "trustLine": {
+    "message": "Runs only on your computer. No tracking, no data collection."
+  }
+}

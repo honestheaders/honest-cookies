@@ -1,0 +1,222 @@
+{
+  "extName": {
+    "message": "Honest Cookies – Cookie編集"
+  },
+  "extDescription": {
+    "message": "Cookieを見る・編集・追加・削除・書き出し・読み込み。サイトごとに許可を求めます。追跡なし、データ収集なし、ソース公開。EditThisCookieの書き出しを読み込めます。"
+  },
+  "searchPlaceholder": {
+    "message": "名前・値・ドメインで検索"
+  },
+  "scopePage": {
+    "message": "このページ"
+  },
+  "scopeSite": {
+    "message": "サイト全体"
+  },
+  "add": {
+    "message": "+ 追加"
+  },
+  "exportMenu": {
+    "message": "書き出し…"
+  },
+  "exportJson": {
+    "message": "JSONでコピー"
+  },
+  "exportNetscape": {
+    "message": "cookies.txtでコピー"
+  },
+  "exportHeader": {
+    "message": "Cookieヘッダーでコピー"
+  },
+  "exportFile": {
+    "message": "JSONファイルに保存"
+  },
+  "import": {
+    "message": "読み込み"
+  },
+  "importHint": {
+    "message": "JSON(EditThisCookie / Cookie-Editor の形式)か、Netscape の cookies.txt を貼り付けてください。このブラウザーの中だけに保存します。"
+  },
+  "importRun": {
+    "message": "読み込む"
+  },
+  "cancel": {
+    "message": "キャンセル"
+  },
+  "deleteAll": {
+    "message": "すべて削除"
+  },
+  "deleteAllConfirm": {
+    "message": "もう一度押すと $1 件削除",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "countAll": {
+    "message": "$1 件",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "countFiltered": {
+    "message": "$2 件中 $1 件",
+    "placeholders": {
+      "a": {
+        "content": "$1"
+      },
+      "b": {
+        "content": "$2"
+      }
+    }
+  },
+  "noCookies": {
+    "message": "このページのCookieはありません。"
+  },
+  "noMatch": {
+    "message": "検索に合うCookieはありません。"
+  },
+  "noName": {
+    "message": "(名前なし)"
+  },
+  "newCookie": {
+    "message": "新しいCookie"
+  },
+  "session": {
+    "message": "セッション"
+  },
+  "fName": {
+    "message": "名前"
+  },
+  "fValue": {
+    "message": "値"
+  },
+  "fDomain": {
+    "message": "ドメイン"
+  },
+  "fPath": {
+    "message": "パス"
+  },
+  "fExpires": {
+    "message": "有効期限"
+  },
+  "fSameSite": {
+    "message": "SameSite"
+  },
+  "ssUnspecified": {
+    "message": "指定なし"
+  },
+  "fSession": {
+    "message": "セッションCookie(ブラウザーを閉じると消える)"
+  },
+  "fHostOnly": {
+    "message": "このホストだけ"
+  },
+  "save": {
+    "message": "保存"
+  },
+  "copyValue": {
+    "message": "値をコピー"
+  },
+  "delete": {
+    "message": "削除"
+  },
+  "saved": {
+    "message": "保存しました。"
+  },
+  "deleted": {
+    "message": "$1 件削除しました。",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "copiedValue": {
+    "message": "値をコピーしました。"
+  },
+  "copiedN": {
+    "message": "$1 件コピーしました。",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "imported": {
+    "message": "読み込み $1 件、失敗 $2 件、期限切れで飛ばした $3 件。",
+    "placeholders": {
+      "a": {
+        "content": "$1"
+      },
+      "b": {
+        "content": "$2"
+      },
+      "c": {
+        "content": "$3"
+      }
+    }
+  },
+  "errNameEmpty": {
+    "message": "名前か値を入れてください。"
+  },
+  "errName": {
+    "message": "名前に ; = 前後の空白・制御文字は使えません。"
+  },
+  "errValue": {
+    "message": "値に ; と制御文字は使えません。"
+  },
+  "errDomain": {
+    "message": "ドメインを入れてください。"
+  },
+  "errPath": {
+    "message": "パスは / で始めてください。"
+  },
+  "errPast": {
+    "message": "有効期限は未来の日時にしてください。消すときは「削除」を使います。"
+  },
+  "errSameSiteNone": {
+    "message": "SameSite=None にするには Secure をオンにしてください。"
+  },
+  "errSave": {
+    "message": "Chromeがこの Cookie を保存しませんでした。$1",
+    "placeholders": {
+      "m": {
+        "content": "$1"
+      }
+    }
+  },
+  "errRejected": {
+    "message": "ドメイン、Secure の設定、__Host- などの名前の決まりを確認してください。"
+  },
+  "errCopy": {
+    "message": "クリップボードにコピーできませんでした。"
+  },
+  "errImport": {
+    "message": "読み込めるものがありません。JSON か cookies.txt を貼り付けてください。"
+  },
+  "blocked": {
+    "message": "Cookieを編集できるのは http:// と https:// のページだけです。"
+  },
+  "accessWhy": {
+    "message": "Honest Cookies は、許可したサイトのCookieだけを読みます。どこにも送りません。"
+  },
+  "grantSite": {
+    "message": "$1 で許可",
+    "placeholders": {
+      "s": {
+        "content": "$1"
+      }
+    }
+  },
+  "grantAll": {
+    "message": "すべてのサイトで許可"
+  },
+  "trustLine": {
+    "message": "あなたのパソコンの中だけで動きます。追跡なし、データ収集なし。"
+  }
+}
