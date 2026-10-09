@@ -3,7 +3,7 @@
     "message": "Honest Cookies – Cookie Editor"
   },
   "extDescription": {
-    "message": "View, edit, add, delete, export and import cookies. Asks for access one site at a time. No tracking, no data collection, open source. Imports EditThisCookie exports."
+    "message": "View, edit, add, delete, export and import cookies. Asks for access one site at a time. No tracking, open source."
   },
   "searchPlaceholder": {
     "message": "Search name, value or domain"

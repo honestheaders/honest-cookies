@@ -3,7 +3,7 @@
     "message": "Honest Cookies – Cookie編集"
   },
   "extDescription": {
-    "message": "Cookieを見る・編集・追加・削除・書き出し・読み込み。サイトごとに許可を求めます。追跡なし、データ収集なし、ソース公開。EditThisCookieの書き出しを読み込めます。"
+    "message": "Cookieを見る・編集・追加・削除・書き出し・読み込み。サイトごとに許可を求めます。追跡なし、データ収集なし、ソース公開。"
   },
   "searchPlaceholder": {
     "message": "名前・値・ドメインで検索"
