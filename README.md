@@ -32,6 +32,11 @@ Honest Cookies installs with **no site access at all**. When you open it on a si
 - `activeTab` – to know which page you opened the popup on
 - optional site access – asked for one site at a time, only when you click "Allow"
 
+## Guides
+
+- [How to view and edit cookies in Chrome](https://honestheaders.github.io/honest-guide/en/edit-cookies-in-chrome/)
+- [SameSite cookies explained: Strict, Lax and None](https://honestheaders.github.io/honest-guide/en/samesite-cookie-attribute/)
+
 ## Privacy
 
 See [PRIVACY.md](PRIVACY.md).
