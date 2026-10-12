@@ -11,6 +11,16 @@ Built as an open-source, Manifest V3 replacement for the cookie editors that dis
 - Partitioned (CHIPS) cookies and incognito windows are handled
 - English and Japanese
 
+## Install
+
+Honest Cookies is not listed on the Chrome Web Store right now. Install it from this repository:
+
+1. Click **Code → Download ZIP** on this page and unzip it.
+2. Open `chrome://extensions` and turn on **Developer mode** (top right).
+3. Click **Load unpacked** and choose the unzipped folder (the one with `manifest.json`).
+
+Chrome does not update unpacked extensions on its own. To update, download the ZIP again and click the reload button on the extension card.
+
 ## Asks for access one site at a time
 
 Most cookie editors ask to "read and change all your data on all websites" when you install them.
